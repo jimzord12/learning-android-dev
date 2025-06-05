@@ -8,6 +8,22 @@ public class Car extends Vehicle {
     }
 
     /**
+     *
+     */
+    @Override
+    public void startEngine() {
+        System.out.println("The car is starting the engine");
+    }
+
+    /**
+     *
+     */
+    @Override
+    public void stopEngine() {
+        System.out.println("The car is stoping the engine");
+    }
+
+    /**
      * @param speed The Vehicle's current speed
      */
     @Override

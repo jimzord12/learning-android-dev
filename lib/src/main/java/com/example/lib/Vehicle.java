@@ -1,6 +1,6 @@
 package com.example.lib;
 
-public abstract  class Vehicle {
+public abstract  class Vehicle implements IVechile {
     int makeYear;
     String model;
     String color;
