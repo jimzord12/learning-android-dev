@@ -1,17 +1,21 @@
-package com.example.lib.exercise01;
+package com.example.lib.scanner;
 
 import java.util.Scanner;
 
-public class InputController {
-
+public class ScannerHelpers {
     Scanner scanner = new Scanner(System.in);
 
-    int getInt(String msg) {
+    public int getInt(String msg) {
         System.out.println(msg);
         return scanner.nextInt();
     }
     boolean getBool(String msg) {
         System.out.println(msg);
         return scanner.nextBoolean();
+    }
+
+    public String getString(String msg) {
+        System.out.println(msg);
+        return scanner.nextLine();
     }
 }

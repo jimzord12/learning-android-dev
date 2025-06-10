@@ -1,9 +1,11 @@
 package com.example.lib.exercise01;
 
+import com.example.lib.scanner.ScannerHelpers;
+
 public class Main {
 
     public static void main(String[] args) {
-        InputController inputController = new InputController();
+        ScannerHelpers inputController = new ScannerHelpers();
 
         int radius  = inputController.getInt("Please enter the radius of the circle: ");
 

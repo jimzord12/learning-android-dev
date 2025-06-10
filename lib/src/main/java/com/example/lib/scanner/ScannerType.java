@@ -1,4 +1,4 @@
-package com.example.lib.exercise01;
+package com.example.lib.scanner;
 
 public enum ScannerType {
     INT,
